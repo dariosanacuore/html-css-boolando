@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color:orange;
+    width: 100%;
+    min-height: 80px;
+}
+
+.container{
+    width:80%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.riga{
+    display:flex;
+    justify-content: space-between;
+}
+.riq-40{
+    width:40%;
+    margin-bottom:30px;
+    position: relative;
+
+}
+.price-red{
+    color:red;
+}
+.canc-line{
+    text-decoration: line-through;
+}
+.card1{
+   
+}
+.shirt1{
+    background-color: red;
+    color:white;
+    position: absolute;
+    left:10%;
+    bottom:120px;
+}
+.sost{
+    background-color: green;
+    color:white;
+    position: absolute;
+    left:22%;
+    bottom:120px;
+    
+}
+
+.card2{
+    position: relative;
+    
+}
+.shirt2{
+    background-color:red;
+    color:white;
+    position: absolute;
+    bottom:100px;
+   
+}
+.sost2{
+    background-color: green;
+    color:white;
+    position: absolute;
+    left:24%;
+    top:80%;
+}
+.cuore{
+    font-size:2rem;
+    background-color: white;
+    border-style: none;
+    position: absolute;
+    right:0%;
+    top:0%;
+    
+}
