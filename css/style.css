@@ -1,88 +1,237 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     max-width: 100%;
-   
 }
 
-header{
-    background-color:orange;
+header {
+    background-color: orange;
     width: 100%;
     min-height: 80px;
 }
 
-.container{
-    width:80%;
-    max-width:1000px;
-    margin:0 auto;
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.riga{
-    display:flex;
+.riga {
+    display: flex;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.riq-40{
-    width:30%;
-    margin-bottom:30px;
+
+.riq-40 {
+    width: 30%;
+    margin-bottom: 30px;
     position: relative;
 
 }
-.price-red{
-    color:red;
+
+.price-red {
+    color: red;
 }
-.canc-line{
+
+.canc-line {
     text-decoration: line-through;
 }
-.card1{
-   
-}
-.shirt1{
+
+.card1 {}
+
+.shirt1 {
     background-color: red;
-    color:white;
+    color: white;
     position: absolute;
-    left:10%;
-    bottom:120px;
-}
-.sost{
-    background-color: green;
-    color:white;
-    position: absolute;
-    left:22%;
-    bottom:120px;
-    
+    left: 10%;
+    bottom: 120px;
 }
 
-.card2{
-    position: relative;
-    
-}
-.shirt2{
-    background-color:red;
-    color:white;
-    position: absolute;
-    bottom:100px;
-   
-}
-.sost2{
+.sost {
     background-color: green;
-    color:white;
+    color: white;
     position: absolute;
-    left:24%;
-    top:80%;
+    left: 22%;
+    bottom: 120px;
+
 }
-.cuore{
-    font-size:2rem;
+
+.card2 {
+    position: relative;
+
+}
+
+.shirt2 {
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.sost2 {
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 24%;
+    top: 80%;
+}
+
+.cuore {
+    font-size: 2rem;
     background-color: white;
     border-style: none;
     position: absolute;
-    right:0%;
-    top:0%;
-    
+    right: 0%;
+    top: 0%;
+
 }
-.card3{
+
+.card3 {
     position: relative;
+}
+
+.img-hover {
+    position: relative;
+}
+
+.img-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-hover .img1b {
+    display: none;
+}
+
+.img-hover:hover .img1b {
+    display: block;
+}
+
+.img-hover:hover .img1 {
+    display: none;
+}
+
+
+.img2-hover {
+    position: relative;
+}
+
+.img2-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img2b {
+    display: none;
+}
+
+.img2-hover:hover .img2b {
+    display: block;
+}
+
+.img2-hover:hover .img2 {
+    display: none;
+}
+
+
+.img3-hover {
+    position: relative;
+}
+
+.img3-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img3b {
+    display: none;
+}
+
+.img3-hover:hover .img3b {
+    display: block;
+}
+
+.img3-hover:hover .img3 {
+    display: none;
+}
+
+
+.img4-hover {
+    position: relative;
+}
+
+.img4-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img4b {
+    display: none;
+}
+
+.img4-hover:hover .img4b {
+    display: block;
+}
+
+.img4-hover:hover .img4 {
+    display: none;
+}
+
+
+
+.img5-hover {
+    position: relative;
+}
+
+.img5-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img5b {
+    display: none;
+}
+
+.img5-hover:hover .img5b {
+    display: block;
+}
+
+.img5-hover:hover .img5 {
+    display: none;
+}
+
+
+
+
+
+.img6-hover {
+    position: relative;
+}
+
+.img6-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img6b {
+    display: none;
+}
+
+.img6-hover:hover .img6b {
+    display: block;
+}
+
+.img6-hover:hover .img6 {
+    display: none;
 }
