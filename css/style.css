@@ -5,7 +5,9 @@
 }
 img{
     max-width: 100%;
+   
 }
+
 header{
     background-color:orange;
     width: 100%;
@@ -14,16 +16,17 @@ header{
 
 .container{
     width:80%;
-    max-width:900px;
+    max-width:1000px;
     margin:0 auto;
 }
 
 .riga{
     display:flex;
     justify-content: space-between;
+    flex-wrap:wrap;
 }
 .riq-40{
-    width:40%;
+    width:30%;
     margin-bottom:30px;
     position: relative;
 
@@ -79,4 +82,7 @@ header{
     right:0%;
     top:0%;
     
+}
+.card3{
+    position: relative;
 }
